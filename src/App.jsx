@@ -1,7 +1,13 @@
-import "./App.css";
+import Starter from "./tutorial/01-useState/starter/02-useState-basics";
 
 function App() {
-  return <h1>My vite project</h1>;
+  return (
+    <>
+      <div className="container">
+        <Starter />
+      </div>
+    </>
+  );
 }
 
 export default App;
